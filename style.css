@@ -1,0 +1,72 @@
+@font-face {
+	font-family: moj;
+	src: url('Roboto-Regular.ttf');
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+
+	cursor: default;
+}
+
+*::-moz-selection {
+  opacity: 0;
+}
+
+*::selection {
+  opacity: 0;
+
+}
+
+body {
+	overflow-x: hidden;
+}
+
+a, p {
+	color: black;
+	font-family: moj;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#logo {
+	position: fixed;
+	top: 5%;
+	left: 5%;
+
+	width: 90px;
+}
+
+.info {
+	position: fixed;
+	top: 20%;
+	left: 5%;
+
+	display: block;
+
+}
+
+.contact {
+	position: fixed;
+	top: 30%;
+	left: 5%;
+
+	display: block;
+}
+
+@media screen and (max-width: 375px) {
+	p {font-size: 14px;}
+	#logo {width: 75px;}
+	.info {top: 25%;}
+	.contact {top: 40%;}
+
+}
+
+
+
+
+
