@@ -131,6 +131,10 @@ footer {
 	header {
 		grid-template-columns: 23vw 23vw 48vw;
 	}
+
+	header, footer {
+		width: calc(100vw - 50px);
+	}
 }
 
 
