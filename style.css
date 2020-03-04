@@ -124,12 +124,11 @@ footer {
 	.vert2 {width: 100% !important;}
 
 	.main {
-		width: 99vw;
 		height: 85vh;
 	}
 
 	header {
-		grid-template-columns: 23vw 23vw 48vw;
+		grid-template-columns: 25vw 25vw calc(50vw - 50px);
 	}
 
 	header, footer {
