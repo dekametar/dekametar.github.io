@@ -84,9 +84,13 @@ footer {
 
 
 
+@media screen and (max-width: 1920px) {
+	body {font-size: 95%;}
+	.slick-slide, .slick-slide img {height: 75vh;}
+}
+
 @media screen and (max-width: 1600px) {
 	body {font-size: 90%;}
-
 }
 
 @media screen and (max-width: 1280px) {
@@ -113,6 +117,8 @@ footer {
 		width: 50vw !important;
 		height: auto !important;
 	}
+
+	.footer:last-child {width: calc(50vw - 25px);}
 }
 
 @media screen and (max-width: 500px) {
