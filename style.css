@@ -119,13 +119,13 @@ footer {
 	body {font-size: 55%;}
 
 	.footer:first-child {display: none;}
-	.footer:last-child {width: 100%;}
+	.footer:last-child {width: calc(100vw - 100px);}
 
 	.vert2 {width: 100% !important;}
 
 	.main {
 		width: 100vw;
-		height: 95vh;
+		height: 90vh;
 	}
 
 	header {
