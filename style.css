@@ -116,7 +116,7 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-	body {font-size: 45%;}
+	body {font-size: 50%;}
 
 	.footer:first-child {display: none;}
 	.footer:last-child {width: 100%;}
@@ -125,7 +125,11 @@ footer {
 
 	.main {
 		width: 100vw;
-		height: 98vh;
+		height: 95vh;
+	}
+
+	header {
+		grid-template-columns: 23vw 23vw 48vw;
 	}
 }
 
