@@ -116,7 +116,7 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-	body {font-size: 50%;}
+	body {font-size: 55%;}
 
 	.footer:first-child {display: none;}
 	.footer:last-child {width: 100%;}
