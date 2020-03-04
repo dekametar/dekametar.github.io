@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>DEKAMETAR</title>
+
+	<script>
+		
+		var img;
+		var imgl;
+
+		window.onload = function ()
+			{
+				img = document.getElementById ("hover-bio");
+				imgl = document.getElementById ("hover-contact");
+			}
+
+	</script>
+
+
+
+</head>
+<body>
+	<div class="wrapper">
+		<div class="grid cell_1"><h1>DEKAMETAR</h1>
+		<a href="#" 
+		onmouseover="img.style.display='block';"
+		onmouseout="img.style.display='none'";>ABOUT</a>
+		<a href="#"
+		onmouseover="imgl.style.display='block';"
+		onmouseout="imgl.style.display='none'";>CONTACT</a>
+		</div>
+		<div class="grid cell_3"><div id="hover-bio"><p>Dekametar is architectural studio based in Vrbas, Serbia</p>
+		</div>
+		<div id="hover-contact"><p>Dragana Elezović<br/>dekametar@gmail.com<br/>+381 65 6775 570</p></div>
+	</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+<script>
+</script>
+
+</html>
