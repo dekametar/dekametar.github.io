@@ -13,91 +13,88 @@
 <body>
 
 
-
-
-
 	<div class="main">
 
 
-		<div class="grid">
 
-
-
-
-
-			<div class="cell logo">
+		<header>
+			
+			<div class="cell">
 				<a href="index.html">10<sup>1</sup></a>
 			</div>
 
 
 
 
-			<div class="cell meni">
-				<a href="menu.html" class="menu active">m</a>
+			<div class="cell">
+				<a href="menu.html" class="menu link sup_height_fix">m</a>
 			</div>
 
 
 
 
+			<div class="cell">
+				<h1 class="sup_height_fix">Dekametar Arhitektonski Studio</h1>
+			</div>
 
-			<div class="cell content_header">
-				<h1>Dekametar Arhitektonski Studio</h1>
+
+		</header>
+
+
+
+
+
+
+
+
+		<div class="carousel">
+
+
+			<div class="carousel_content">
+				<img src="img/10.jpeg">
+			</div>
+
+
+			<div class="carousel_content">
+				<img src="img/4.jpg" class="vert">
+			</div>
+
+
+			<div class="carousel_content">
+				<img src="img/2.jpg">
+			</div>
+
+
+			<div class="carousel_content">
+				<img src="img/5.jpg" class="vert vert2">
+			</div>
+
+			<div class="carousel_content">
+				<img src="img/11.jpeg">
 			</div>
 
 
 
+		</div>
 
 
 
-			<div class="cell content_main">
 
 
 
-				<div class="carousel">
-					<img src="img/10.jpeg" class="hor">
-				</div>
 
+		<footer>
+			
 
-
-				<div class="carousel">
-					<img src="img/4.jpg" class="vert">
-				</div>
-
-
-				<div class="carousel">
-					<img src="img/2.jpg" class="hor">
-				</div>
-
-				<div class="carousel">
-					<img src="img/5.jpg" class="hor">
-				</div>
-
-				<div class="carousel">
-					<img src="img/11.jpeg" class="hor">
-				</div>
-
+			<div class="footer">
 			</div>
 
 
 
+			<div class="footer">
+				<p style="display: block;">Architectural Studio based in Vrbas, Serbia</p>
 
-
-
-			<div class="cell footer">
-			</div>
-
-
-
-
-
-
-
-			<div class="cell footer ftr2">
-
-
-					<p style="display: block;">Architectural Studio based in Vrbas, Serbia</p>
-
-					<p>for inquiries&nbsp;</p><a href="mailto:dekametar@gmail.com" class="active">email</a>
+					<p>for inquiries&nbsp;</p><a href="mailto:dekametar@gmail.com" target="_blank" class="link">email</a>
 					&nbsp;&nbsp;<p>or</p>
 
 
@@ -107,28 +104,30 @@
 					<div class="phone">
 
 
-						<a href="#" class="active fon1">call</a></div>
-						<a href="#" class="active fon2">381 65 677 55 70</a></div>
+						<a href="#" class="link fon1">call</a></div>
+						<a href="#" class="link fon2" style="display: none;">381 65 677 55 70</a></div>
 
 
 					</div>
-
-
-				</div>
-
-
-
 			</div>
 
 
 
+		</footer>
 
 
 
-		</div>
 
 
 	</div>
+
+
+
+
+
+
+
+
 
 
 
@@ -144,7 +143,7 @@ $(document).ready(function(){
 	});
 
 
-	$('.content_main').slick({
+	$('.carousel').slick({
 	  infinite: true,
 	  speed: 500,
 	  fade: true,
